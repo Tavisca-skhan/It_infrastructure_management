@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Blogiclayer;
 
-namespace PresentationLayer
+namespace Final1
 {
     static class Program
     {
@@ -15,7 +14,6 @@ namespace PresentationLayer
         [STAThread]
         static void Main()
         {
-            Dongle3g d = new Dongle3g("abc");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
